@@ -1,0 +1,17 @@
+{
+    "name": "light/traits",
+    "description": "some useful traits that i used everyday",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lichunqiang",
+            "email": "light-li@hotmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "Light\\\Traits\\": "src/"
+      }
+    }
+}
