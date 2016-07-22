@@ -44,4 +44,18 @@ trait Singleton
     {
         static::$_instance = $instance;
     }
+
+    /**
+     * Make __construct private to avoid new the object.
+     */
+    private function __construct()
+    {
+    }
+
+    /**
+     * Disable clone.
+     */
+    private function __clone()
+    {
+    }
 }
