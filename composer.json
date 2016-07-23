@@ -14,10 +14,19 @@
       "email": "light-li@hotmail.com"
     }
   ],
-  "require": {},
+  "require": {
+  },
   "autoload": {
     "psr-4": {
       "Light\\Traits\\": "src/"
     }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Light\\Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.1"
   }
 }
