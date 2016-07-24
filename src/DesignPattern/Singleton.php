@@ -38,7 +38,7 @@ trait Singleton
     /**
      * Swap the instance to another.
      *
-     * @param static $instance
+     * @param mixed $instance
      */
     final public static function swap($instance)
     {

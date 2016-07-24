@@ -11,9 +11,9 @@
 
 namespace Light\Tests\Fixture;
 
-use Light\Traits\Support\Macroable;
+use Light\Traits\DesignPattern\Singleton;
 
-class ClassFixture
+class SingletonFixture
 {
-    use Macroable;
+    use Singleton;
 }

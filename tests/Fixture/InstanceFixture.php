@@ -11,9 +11,14 @@
 
 namespace Light\Tests\Fixture;
 
-use Light\Traits\Support\Macroable;
+use Light\Traits\DesignPattern\Instance;
 
-class ClassFixture
+class InstanceFixture
 {
-    use Macroable;
+    use Instance;
+
+    public function test()
+    {
+        return mt_rand(0, 100);
+    }
 }

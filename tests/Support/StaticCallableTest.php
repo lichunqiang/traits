@@ -9,11 +9,12 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Light\Tests\Fixture;
+namespace Light\tests\Support;
 
-use Light\Traits\Support\Macroable;
-
-class ClassFixture
+class StaticCallableTest extends \PHPUnit_Framework_TestCase
 {
-    use Macroable;
+    public function testStaticCall()
+    {
+        $this->assertTrue(true);
+    }
 }

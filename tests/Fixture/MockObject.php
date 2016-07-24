@@ -11,9 +11,15 @@
 
 namespace Light\Tests\Fixture;
 
-use Light\Traits\Support\Macroable;
-
-class ClassFixture
+class MockObject
 {
-    use Macroable;
+    public function mockEcho()
+    {
+        return 'mockEcho';
+    }
+
+    public static function name()
+    {
+        return 'mockEcho';
+    }
 }
