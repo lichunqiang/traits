@@ -28,6 +28,7 @@ return Symfony\CS\Config\Config::create()
         // 'concat_without_spaces' => false,
         'phpdoc_no_package' => false,
         'empty_return' => false,
+        'php_closing_tag'
     ))
     ->finder(
         Symfony\CS\Finder\DefaultFinder::create()

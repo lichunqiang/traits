@@ -19,7 +19,7 @@ trait Singleton
     /**
      * @var static
      */
-    private static $_instance;
+    protected static $_instance;
 
     /**
      * Get the instance.
